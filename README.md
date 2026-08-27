@@ -105,7 +105,7 @@ check	npm run check	Ejecuta las comprobaciones de calidad sin modificar los arch
 
 
 la estructura principal es:
-mi-proyecto/
+turnos-red/
 │
 ├── .env
 ├── .env.example
