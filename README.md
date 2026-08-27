@@ -114,27 +114,25 @@ turnos-red/
 ├── package.json
 ├── package-lock.json
 ├── tsconfig.json
-│
-├── data/
-│   └── turnos.json
+├── cliente.html
+│── turnos.json
 │
 └── src/
     │
     ├── server.ts
     │
     ├── routes/
-    │   └── turnos.routes.ts
     │
     ├── controllers/
-    │   └── turnos.controller.ts
+    │   └── turnos.controller.js
     │
     ├── services/
-    │   ├── turnos.ts
+    │   ├── turnos.json
     │   └── eventBus.ts
     │
     ├── models/
     │   ├── turno.ts
-    │   └── eventos.ts
     │
     └── websocket/
         └── websocket.ts
+        └── eventos.ts
